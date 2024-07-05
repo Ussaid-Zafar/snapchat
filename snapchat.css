@@ -1,0 +1,151 @@
+body{
+  margin: 0px;
+}
+#search{
+  width: 12vw;
+  background-size: 13%;
+  background-position: top 7px left 5px;
+  background-image: url(search.svg);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  border-radius: 20px;
+  
+}
+nav {
+  position: fixed;
+  display: flex;
+  /* position: sticky; */
+  height: 10vh;
+  background-color: white;
+  /* border:2px solid black; */
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  width: 98vw;
+  justify-content: space-between;
+}
+span > img {
+  height: 40px;
+}
+.second {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.second > div {
+  display: flex;
+  flex-direction: column;
+}
+.first {
+  display: flex;
+  align-items: center;
+  width: 19%;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.first > img {
+  height: 40px;
+}
+.third {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: space-evenly;
+}
+.third span > img {
+  height: 30px;
+}
+.main {
+  width: 99vw;
+  display: flex;
+
+}
+.image1{
+  width: 100%;
+}
+.div1 {
+    margin-top: 100px;
+  display: flex;
+  padding: 3%;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: Avenir Next, Helvetica, sans-serif;
+  width: 35%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.div2 {
+  border-left: 1px solid rgb(236, 236, 236);
+  width: 60%;
+  margin-left: 45%;
+  margin-top: 13vh;
+  height: 200vh;
+}
+.img2 {
+  height: 50%;
+  width: 70%;
+}
+
+.images {
+  border-radius: 15px;
+  margin: 10px;
+  background-color: #fffc00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  overflow: hidden;
+}
+.p1 {
+  font-family: Avenir Next, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+  margin: 0px;
+}
+.div1 > input {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  width: 90%;
+}
+.image11 {
+  height: 12%;
+  width: 17%;
+}
+.div1 > a {
+  padding: 10px;
+  color: #0096e5;
+  align-self: center;
+  text-decoration: none;
+}
+.login {
+  width: 90%;
+  align-self: center;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  background-color: #0096e5;
+  font-size: large;
+  color: white;
+  /* font-weight: 700; */
+}
+.third button {
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  padding: 10px;
+}
+.first input {
+  padding: 12px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 14px;
+}
